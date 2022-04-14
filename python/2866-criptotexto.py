@@ -19,6 +19,6 @@ if casos.isdigit() and not casos == '0':
 
         casos -= 1
 elif casos == '0':
-    print('Sem mensagem para descobrir.')
+    print('Sem mensagem a ser descobrir.')
 else:
     print("Entrada inválida!")
