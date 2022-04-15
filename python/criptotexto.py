@@ -1,5 +1,5 @@
 def main(palavra):
-    if not palavra.isdigit():
+    if palavra and not palavra.isdigit():
         texto_oculto = str()
         count = 0
 
