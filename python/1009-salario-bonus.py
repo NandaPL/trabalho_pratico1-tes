@@ -1,5 +1,0 @@
-nome = input()
-salario = float(input())
-montante = float(input())
-TOTAL = salario + (montante * 0.15)
-print('TOTAL = R$ %.2f' % (TOTAL))

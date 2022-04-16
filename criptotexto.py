@@ -22,4 +22,4 @@ def cryptotext(palavra):
         else:
             return print('Sem mensagem oculta')
     else:
-        return print('Entrada inválida!')
+        return print('Entrada inválida')
