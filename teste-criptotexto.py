@@ -48,7 +48,3 @@ class TesteCriptotextoEstrutural(unittest.TestCase):
     def test_cryptotext_04(self):
         result = cryptotext.main('3')
         self.assertEqual(result, 'Entrada inválida')
-
-
-if __name__ == '__main__':
-    unittest.main()
