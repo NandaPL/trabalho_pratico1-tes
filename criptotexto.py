@@ -18,8 +18,8 @@ def cryptotext(palavra):
                 count += 1
 
         if count > 0:
-            return print('Texto oculto: ' + texto_oculto[::-1])
+            return texto_oculto[::-1]
         else:
-            return print('Sem mensagem oculta')
+            return 'Sem mensagem oculta'
     else:
-        return print('Entrada inválida')
+        return 'Entrada inválida'
